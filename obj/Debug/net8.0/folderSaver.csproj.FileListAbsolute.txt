@@ -1,0 +1,15 @@
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\folderSaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\folderSaver.AssemblyInfoInputs.cache
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\folderSaver.AssemblyInfo.cs
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\folderSaver.csproj.CoreCompileInputs.cache
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\folderSaver.sourcelink.json
+C:\Programacion\Projectos VSC\folderSaver\bin\Debug\net8.0\folderSaver.exe
+C:\Programacion\Projectos VSC\folderSaver\bin\Debug\net8.0\folderSaver.deps.json
+C:\Programacion\Projectos VSC\folderSaver\bin\Debug\net8.0\folderSaver.runtimeconfig.json
+C:\Programacion\Projectos VSC\folderSaver\bin\Debug\net8.0\folderSaver.dll
+C:\Programacion\Projectos VSC\folderSaver\bin\Debug\net8.0\folderSaver.pdb
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\folderSaver.dll
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\refint\folderSaver.dll
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\folderSaver.pdb
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\folderSaver.genruntimeconfig.cache
+C:\Programacion\Projectos VSC\folderSaver\obj\Debug\net8.0\ref\folderSaver.dll
