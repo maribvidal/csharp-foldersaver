@@ -11,6 +11,8 @@ public class Program
         List<string> totalFilePaths;
         List<string> selectedFilePaths;
 
+        Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
+
         try
         {
             // Set new working directory if an argument was passed
@@ -39,6 +41,7 @@ public class Program
             }
 
             Console.Clear();
+            Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
             Console.WriteLine(" -- SELECT THE FILES YOU WANT TO COMPRESS -- ");
 
             // Enumerate directory files
@@ -46,12 +49,14 @@ public class Program
             selectedFilePaths = SelectPaths(totalFilePaths);
 
             Console.Clear();
+            Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
             Console.WriteLine(" -- NOW CREATING ZIP -- ");
 
             ZipManager zipManager = new ZipManager();
             zipManager.CreateZip(selectedFilePaths, zipName);
 
             Console.Clear();
+            Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
             Console.WriteLine(" -- ZIP CREATED SUCCESFULLY -- ");
             Console.WriteLine(" * You can close the program");
 
@@ -59,6 +64,7 @@ public class Program
         catch (Exception ex)
         {
             Console.Clear();
+            Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
             Console.WriteLine(" -- ERROR -- ");
             Console.WriteLine($" * {ex.Message}");
         }

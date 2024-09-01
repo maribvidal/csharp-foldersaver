@@ -1,0 +1,15 @@
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\folderSaver.exe
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\folderSaver.deps.json
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\folderSaver.runtimeconfig.json
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\folderSaver.dll
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\folderSaver.pdb
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\folderSaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\folderSaver.AssemblyInfoInputs.cache
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\folderSaver.AssemblyInfo.cs
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\folderSaver.csproj.CoreCompileInputs.cache
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\folderSaver.sourcelink.json
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\folderSaver.dll
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\refint\folderSaver.dll
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\folderSaver.pdb
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\folderSaver.genruntimeconfig.cache
+C:\Programacion\Projectos VSC\folderSaver\obj\Release\net8.0\win-x64\ref\folderSaver.dll

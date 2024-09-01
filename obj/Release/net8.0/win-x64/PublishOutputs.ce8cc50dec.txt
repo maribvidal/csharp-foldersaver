@@ -1,0 +1,5 @@
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\publish\folderSaver.exe
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\publish\folderSaver.dll
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\publish\folderSaver.deps.json
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\publish\folderSaver.runtimeconfig.json
+C:\Programacion\Projectos VSC\folderSaver\bin\Release\net8.0\win-x64\publish\folderSaver.pdb
