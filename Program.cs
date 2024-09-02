@@ -7,9 +7,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        // Constants
+        const string PROGRAM_NAME = " == ZIPFILE MANAGER (v0.3) ==";
+
+        // Global Variables
         bool runtime = true;
         string zipName = "zip";
-
+        
         List<string> totalFilePaths;
         List<string> totalDirPaths;
         List<string> selectedFilePaths;
@@ -21,7 +25,7 @@ public class Program
         while (runtime) 
         {
             Console.Clear();
-            Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
+            Console.WriteLine(PROGRAM_NAME);
 
             try
             {
@@ -51,7 +55,7 @@ public class Program
                 }
 
                 Console.Clear();
-                Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
+                Console.WriteLine(PROGRAM_NAME);
                 Console.WriteLine(" -- SELECT THE FILES YOU WANT TO COMPRESS -- ");
 
                 // Enumerate directory files
@@ -63,14 +67,14 @@ public class Program
                 selectedDirPaths = SelectDirPaths(totalDirPaths);
 
                 Console.Clear();
-                Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
+                Console.WriteLine(PROGRAM_NAME);
                 Console.WriteLine(" -- NOW CREATING ZIP -- ");
 
                 ZipManager zipManager = new ZipManager();
                 zipManager.CreateZip(selectedFilePaths, selectedDirPaths, zipName);
 
                 Console.Clear();
-                Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
+                Console.WriteLine(PROGRAM_NAME);
                 Console.WriteLine(" -- ZIP CREATED SUCCESFULLY -- ");
                 Console.WriteLine(" * You can close the program");
                 runtime = false;
@@ -79,7 +83,7 @@ public class Program
             catch (ArgumentOutOfRangeException)
             {
                 Console.Clear();
-                Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
+                Console.WriteLine(PROGRAM_NAME);
                 Console.WriteLine(" -- ERROR -- ");
                 Console.WriteLine($" * One path is at least required to create a .zip");
                 Console.WriteLine(" * \n * Do you wish to stop the program? (Y/N)");
@@ -93,7 +97,7 @@ public class Program
             catch (Exception ex)
             {
                 Console.Clear();
-                Console.WriteLine(" == ZIPFILE MANAGER (v0.1) == ");
+                Console.WriteLine(PROGRAM_NAME);
                 Console.WriteLine(" -- ERROR -- ");
                 Console.WriteLine($" * {ex.Message}");
                 runtime = false;
@@ -135,6 +139,7 @@ public class Program
         string? input = Console.ReadLine();
         while (String.IsNullOrEmpty(input))
             input = Console.ReadLine();
+
         return input;
     }
 
@@ -142,8 +147,8 @@ public class Program
     {
         if (args.Length > 0 && args[0] == "help")
         {
-            Console.WriteLine(@" HOW TO USE ZIPMANAGER
- - COMMAND: zipmanager.exe (directory path) (zip name)
+            Console.WriteLine(@" HOW TO USE ZIPFILE MANAGER
+ - COMMAND: zpm.exe (directory path) (zip name)
  - Arguments are optional
  - If you don't provide a directory path
  - the program will asume you want to
