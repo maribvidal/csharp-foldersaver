@@ -15,6 +15,8 @@ public class Program
         List<string> selectedFilePaths;
         List<string> selectedDirPaths;
 
+        runtime = CheckForHelpArg(args);
+
         // While the program is running...
         while (runtime) 
         {
@@ -134,5 +136,20 @@ public class Program
         while (String.IsNullOrEmpty(input))
             input = Console.ReadLine();
         return input;
+    }
+
+    private static bool CheckForHelpArg(string[] args)
+    {
+        if (args.Length > 0 && args[0] == "help")
+        {
+            Console.WriteLine(@" HOW TO USE ZIPMANAGER
+ - COMMAND: zipmanager.exe (directory path) (zip name)
+ - Arguments are optional
+ - If you don't provide a directory path
+ - the program will asume you want to
+ - work with the current directory");
+             return false;
+        }
+        return true;
     }
 }
